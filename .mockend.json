@@ -83,11 +83,23 @@
                 "Poland"
             ]
         },
-        "contacts": {
-            "array": "[]"
-        },
+        "contacts":{
+            "hasMany": "Contact"
+          },
         "projects": {
-            "array": "[]"
+            "hasMany": "Project"
         }
+    },
+    "Contact": {
+      "body": { "string": {} },
+      "post": {
+        "belongsTo": "Employee"
+      }
+    },   
+    "Project": {
+      "body": { "string": {} },
+      "post": {
+        "belongsTo": "Employee"
+      }
     }
 }
