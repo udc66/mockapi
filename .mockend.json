@@ -91,15 +91,9 @@
         }
     },
     "Contact": {
-      "body": { "string": {} },
-      "post": {
-        "belongsTo": "Employee"
-      }
+      "body": { "string": {} }
     },   
     "Project": {
-      "body": { "string": {} },
-      "post": {
-        "belongsTo": "Employee"
-      }
+      "body": { "string": {} }
     }
 }
