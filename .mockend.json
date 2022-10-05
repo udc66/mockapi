@@ -1,21 +1,86 @@
- {
-   "Employee":  {
-            "id": 1,
-            "tabno": "01",
-            "principalName": "alex@mask.com",
-            "firstName": "Alex",
-            "middleName": "Giovich",
-            "lastName": "Mask",
-            "gender": "M",
-            "dateOfBirth": "01.10.1999",
-            "reportTo": "Star",
-            "division": "GITHUB",
-            "position": "Senior Software Engineer",
-            "level": "Senior",
-            "levelId": "8",
-            "roleId": 93,
-            "role": "Software Engineer",
-            "contacts": [],
-            "projects": []
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Employee": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "tabno": {
+          "type": "string"
+        },
+        "principalName": {
+          "type": "string"
+        },
+        "firstName": {
+          "type": "string"
+        },
+        "middleName": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        },
+        "dateOfBirth": {
+          "type": "string"
+        },
+        "reportTo": {
+          "type": "string"
+        },
+        "division": {
+          "type": "string"
+        },
+        "position": {
+          "type": "string"
+        },
+        "level": {
+          "type": "string"
+        },
+        "levelId": {
+          "type": "string"
+        },
+        "roleId": {
+          "type": "integer"
+        },
+        "role": {
+          "type": "string"
+        },
+        "contacts": {
+          "type": "array",
+          "items": {}
+        },
+        "projects": {
+          "type": "array",
+          "items": {}
         }
-      }
+      },
+      "required": [
+        "id",
+        "tabno",
+        "principalName",
+        "firstName",
+        "middleName",
+        "lastName",
+        "gender",
+        "dateOfBirth",
+        "reportTo",
+        "division",
+        "position",
+        "level",
+        "levelId",
+        "roleId",
+        "role",
+        "contacts",
+        "projects"
+      ]
+    }
+  },
+  "required": [
+    "Employee"
+  ]
+}
