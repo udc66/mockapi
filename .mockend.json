@@ -1,7 +1,5 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "type": "object",
-  "properties": {
+ 
     "Employee": {
       "type": "object",
       "properties": {
@@ -58,29 +56,6 @@
           "type": "array",
           "items": {}
         }
-      },
-      "required": [
-        "id",
-        "tabno",
-        "principalName",
-        "firstName",
-        "middleName",
-        "lastName",
-        "gender",
-        "dateOfBirth",
-        "reportTo",
-        "division",
-        "position",
-        "level",
-        "levelId",
-        "roleId",
-        "role",
-        "contacts",
-        "projects"
-      ]
+      }
     }
-  },
-  "required": [
-    "Employee"
-  ]
-}
+  }
