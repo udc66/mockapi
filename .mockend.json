@@ -1,61 +1,6 @@
 {
  
     "Employee": {
-      "type": "object",
-      "properties": {
-        "id": {
-          "type": "integer"
-        },
-        "tabno": {
-          "type": "string"
-        },
-        "principalName": {
-          "type": "string"
-        },
-        "firstName": {
-          "type": "string"
-        },
-        "middleName": {
-          "type": "string"
-        },
-        "lastName": {
-          "type": "string"
-        },
-        "gender": {
-          "type": "string"
-        },
-        "dateOfBirth": {
-          "type": "string"
-        },
-        "reportTo": {
-          "type": "string"
-        },
-        "division": {
-          "type": "string"
-        },
-        "position": {
-          "type": "string"
-        },
-        "level": {
-          "type": "string"
-        },
-        "levelId": {
-          "type": "string"
-        },
-        "roleId": {
-          "type": "integer"
-        },
-        "role": {
-          "type": "string"
-        },
-        "contacts": {
-          "type": "array",
-          "items": {}
-        },
-        "projects": {
-          "type": "array",
-          "items": {}
-        }
-      }
+      { "id": { "int": { "min": 1, "max": 1000000 } } }
     }
   }
