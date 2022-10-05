@@ -1,22 +1,21 @@
  {
-   "Employee": {
-      id: 1,
-      tabno: '01',
-      principalName: 'oleksii@mask.com',
-      firstName: 'Oleksii',
-      middleName: 'Georgiovich',
-      lastName: 'Maskoff',
-      gender: 'M',
-      dateOfBirth: '27.10.1983',
-      reportTo: 'Ahmetov',
-      division: 'Tesla',
-      position: 'Senior Software Architect',
-      level: 'Senior',
-      levelId: '8',
-      roleId: 93,
-      country: 'EU',
-      role: 'Senior Software Architect',
-      contacts: [],
-      projects: [],
-    }
+   "Employee":  {
+            "id": 1,
+            "tabno": "01",
+            "principalName": "alex@mask.com",
+            "firstName": "Alex",
+            "middleName": "Giovich",
+            "lastName": "Mask",
+            "gender": "M",
+            "dateOfBirth": "01.10.1999",
+            "reportTo": "Star",
+            "division": "GITHUB",
+            "position": "Senior Software Engineer",
+            "level": "Senior",
+            "levelId": "8",
+            "roleId": 93,
+            "role": "Software Engineer",
+            "contacts": [],
+            "projects": []
+        }
       }
