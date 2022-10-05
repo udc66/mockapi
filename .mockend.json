@@ -6,14 +6,12 @@
                 "max": 1000000
             }
         },
-        "tabno": {
-            "regexp": "[0-9]{5}"
-        },
+        "tabno": { "regexp": "[0-9]{5}"},
+        "principalName": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
         "gender": {
             "string": [
               "M",
-              "F",
-              "MF"
+              "F"
             ]
           },
           "dateOfBirth": {
