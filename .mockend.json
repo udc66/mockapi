@@ -13,13 +13,13 @@
             "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
         },
         "firstName": {
-            "regexp": "[a-z]{5,10}"
+            "regexp": "[A-Z][a-z]{5,10}"
         },
         "middleName": {
-            "regexp": "[a-z]{5,10}"
+            "regexp": "[A-Z][a-z]{5,10}"
         },
         "lastName": {
-            "regexp": "[a-z]{5,10}"
+            "regexp": "[A-Z][a-z]{5,10}"
         },
         "gender": {
             "string": [
