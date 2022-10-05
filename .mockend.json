@@ -12,6 +12,15 @@
         "principalName": {
             "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
         },
+        "firstName": {
+            "regexp": "[a-z]{5,10}"
+        },
+        "middleName": {
+            "regexp": "[a-z]{5,10}"
+        },
+        "lastName": {
+            "regexp": "[a-z]{5,10}"
+        },
         "gender": {
             "string": [
                 "M",
@@ -23,7 +32,49 @@
                 "min": "1950-01-01T00:00:00Z",
                 "max": "2000-12-31T23:59:59Z"
             }
+        },        
+        "reportTo": {
+            "regexp": "[a-z]{5,10}"
         },
+        "division": {
+            "string": [
+                "UDC",
+                "UPC",
+                "GGT",
+                "AAA",
+                "HGT"
+            ]
+        },
+        "position": {
+            "string": [
+                "Developer",
+                "Manager",
+                "Analyst"
+            ]
+        },
+        "level": {
+            "string": [
+                "Junior",
+                "Middle",
+                "Senior"
+            ]
+        },
+        "levelId": {
+            "regexp": "[0-9]{2}"
+        },
+        "roleId": {
+            "int": {
+                "min": 1,
+                "max": 100
+            }
+        },
+        "role": {
+            "string": [
+                "Developer",
+                "Manager",
+                "Analyst"
+            ]
+        },        
         "country": {
             "string": [
                 "Ukraine",
@@ -31,6 +82,12 @@
                 "Germany",
                 "Poland"
             ]
+        },
+        "contacts": {
+            "regexp": "[]"
+        },
+        "projects": {
+            "regexp": "[]"
         }
     }
 }
