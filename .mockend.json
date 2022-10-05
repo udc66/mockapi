@@ -1,6 +1,22 @@
  {
    "Employee": {
-      "id": {"int": {}},
-      
-      }
+      id: 1,
+      tabno: '01',
+      principalName: 'oleksii@mask.com',
+      firstName: 'Oleksii',
+      middleName: 'Georgiovich',
+      lastName: 'Maskoff',
+      gender: 'M',
+      dateOfBirth: '27.10.1983',
+      reportTo: 'Ahmetov',
+      division: 'Tesla',
+      position: 'Senior Software Architect',
+      level: 'Senior',
+      levelId: '8',
+      roleId: 93,
+      country: 'EU',
+      role: 'Senior Software Architect',
+      contacts: [],
+      projects: [],
+    }
       }
