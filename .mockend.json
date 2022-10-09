@@ -6,7 +6,7 @@
                 "max": 1000000
             }
         },
-        "tabNumber": {
+        "tabno": {
             "regexp": "[0-9]{5}"
         },
         "principalName": {
@@ -67,14 +67,7 @@
                 "min": 1,
                 "max": 100
             }
-        },
-        "role": {
-            "string": [
-                "Developer",
-                "Manager",
-                "Analyst"
-            ]
-        },        
+        },      
         "country": {
             "string": [
                 "Ukraine",
@@ -82,18 +75,5 @@
                 "Germany",
                 "Poland"
             ]
-        },
-        "contacts":{
-            "hasMany": "Contact"
-          },
-        "projects": {
-            "hasMany": "Project"
         }
-    },
-    "Contact": {
-      "body": { "string": {} }
-    },   
-    "Project": {
-      "body": { "string": {} }
-    }
 }
